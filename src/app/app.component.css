@@ -1,0 +1,305 @@
+
+:host {
+  display: block;
+  background-color: #F0FFFF;
+}
+
+
+
+header {
+  background-color: #004080;
+  color: rgba white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.logo-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+  margin-bottom: 0.5rem;
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* ⬅️ Esto permite que se ajusten en pantallas pequeñas */
+  justify-content: center;
+  margin: 0;
+  background-color: #0066cc;
+}
+
+nav ul li {
+  margin: 0.5rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+}
+
+
+main {
+  padding: 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+input, textarea, button {
+  display: block;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+/* Estilo específico para la sección de tasas */
+.tasa-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+.tasa-container input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.btn-convertir {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.85rem;
+  background-color: #000f66;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+.tasa-container video {
+  width: 100%;
+  border-radius: 8px;
+}
+
+
+
+.imagen-banner {
+  display: block;
+  margin:  auto;
+  max-width: 50%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+
+.formulario-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 100%;
+  max-width: 500px;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.btn-enviar {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.85rem;
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+.mapa-container {
+  display: flex;
+  justify-content: center;
+}
+
+.mapa-container iframe {
+  width: 100%;
+  max-width: 600px;
+  border: none;
+  border-radius: 8px;
+}
+
+
+.boton-estilo {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.boton-estilo:hover {
+  background-color: #0066cc;
+}
+
+
+.logo {
+  height: 60px;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
+.servicios-contenido {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.servicios-contenido ul {
+  flex: 1;
+  min-width: 250px;
+}
+
+.imagen-servicios {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.contenedor-video {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.video-presentacion {
+  display: block;
+  margin: 2rem auto 1rem;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-tasa {
+  display: block;
+  margin: 2rem auto 1rem auto;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#redes-sociales a img {
+  margin: 0 10px;
+}
+.subir-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.boton-subir {
+  background-color: #003f87;
+  color: white;
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: auto;              /* ✅ Esto evita el ancho completo */
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin: 1rem auto;
+}
+
+.tasa-botones {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.btn-convertir,
+.btn-limpiar {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.85rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-convertir {
+  background-color: #006633;
+  color: white;
+}
+
+.btn-limpiar {
+  background-color: #0ea38acc;
+  color: white;
+}
+
+
+
+
+@media (max-width: 600px) {
+  .menu-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .menu-principal a {
+    width: 90%;
+    text-align: center;
+    padding: 0.6rem;
+    font-size: 1rem;
+  }
+
+  header {
+    padding: 1rem;
+  }
+
+  .video-presentacion,
+  .video-tasa {
+    max-width: 100%;
+  }
+}
